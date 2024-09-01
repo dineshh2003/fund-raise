@@ -23,7 +23,7 @@ export default function CreateCampaign() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6 font-roboto bg-white shadow-md rounded-lg">
+    <div className="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-lg">
       <h1 className="text-2xl font-bold mb-6">Create Campaign</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Title */}
@@ -37,7 +37,7 @@ export default function CreateCampaign() {
             name="title"
             value={formData.title}
             onChange={handleChange}
-            className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-b4"
+            className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             required
           />
         </div>
@@ -53,7 +53,7 @@ export default function CreateCampaign() {
             value={formData.description}
             onChange={handleChange}
             rows="4"
-            className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-b4"
+            className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             required
           ></textarea>
         </div>
