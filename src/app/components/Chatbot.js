@@ -18,7 +18,7 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="flex flex-col items-center font-roboto justify-center h-[80vh] bg-gray-100 p-4">
+    <div className="flex flex-col items-center font-roboto justify-center my-5 h-[80vh] rounded-xl bg-b1 p-4">
       <div className="bg-b2 w-[30vw] h-[70vh] rounded-lg shadow-lg flex flex-col">
         <h1 className="text-2xl font-bold mb-4 text-center font-sans">Ask AI where to Fund</h1>
         <form onSubmit={handleSubmit} className="mb-4 mx-auto w-5/6">

@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+
 import React from 'react';export default function Card({ image, title, description, requiredAmount, receivedAmount, onFundClick, onRemoveClick }) {
     return (
       <div className="w-[60vw] h-[40vh] bg-b1 shadow-lg rounded-lg text-b1 overflow-hidden flex flex-col my-7">  <div className="flex flex-grow">
@@ -18,6 +21,9 @@ import React from 'react';export default function Card({ image, title, descripti
               >
                 Fund
               </button>
+              <Link href="https://rent-karo.vercel.app/" className="bg-b3 text-white px-4 py-2 border-2 border-white rounded-md hover:bg-b1">
+                    Idea and Startup Details
+              </Link>
               <button 
                 onClick={onRemoveClick} 
                 className="bg-red-400 text-white px-4 py-2 rounded-md border-2 border-red-500 hover:bg-red-700"
