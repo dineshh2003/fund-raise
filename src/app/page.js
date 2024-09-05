@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import CampaignList from "./components/CampaignList";
+import CampaignList from './components/CampaignList.js'
 import StartupDetail from "./components/StartupDetail";
 import Chatbot from "./components/Chatbot";
 
